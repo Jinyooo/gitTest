@@ -1,0 +1,67 @@
+.flex_box {
+    background-color: gray;
+    height: 300px;
+    display: flex;
+}
+.item, .item_1 {
+    width: 50px;
+    height: 30px;
+    background-color: palegreen;
+}
+
+.item_1 {
+    order: -1;
+    flex: auto;
+    align-self: center;
+} /* 한개만 따로 정렬하고싶을때 */
+.grid_box {
+    display: grid;
+    height: 400px;
+    background-color: lightgray;
+    grid-template-columns: repeat(3, 1fr); /*1fraction을 3번 반복*/
+}
+
+.grid_box .item {
+    width: auto;
+    height: auto;
+}
+
+
+.item_g1 {
+    grid-row: 1 /span 2; /*span을 사용해서 row 2개를 하나로 합치겠다*/
+    align-self: end;
+}
+.item_g2 {
+    grid-column: 2/4; /*2부터 4까지의 cell영역*/
+    background-color: darkseagreen;
+}
+
+.grid_box_layout {
+    display: grid;
+    
+    grid-template-areas: 
+        "header header header"
+        "a main b"
+        "footer footer footer"
+    ;
+    grid-auto-flow: colum;
+}
+
+
+/*
+.item_header {
+    grid-area: header;
+    background-color: cornflowerblue;
+}
+.item_a {
+    grid-area: a;
+
+}
+.item_b {
+    grid-area: b;
+}
+.item_footer {
+    grid-area: footer;
+    background-color: cornflowerblue;
+}
+이름을 넣어서 지정하는 방법*/

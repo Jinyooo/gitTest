@@ -1,0 +1,43 @@
+/**/
+.flex, .grid {
+    border: 2px solid black;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 200px;
+
+}
+
+.f_item, .g_item {
+    display: inline-block;
+    
+    padding: 30px;
+
+}
+.f_item {
+    background-color: aqua;
+}
+.grid {
+    display: grid;
+    height: 400px;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+/*.grid .g_time {
+    width: auto;
+    height: auto;
+}
+*/
+
+.g_item {
+    
+    background-color: brown;
+    
+    
+}

@@ -1,0 +1,20 @@
+/* .news > p::after {
+    content: " ";
+    background-image: url(../image/n_icon.png);
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+    display: inline-block
+    
+}}*/
+
+.news > p::after {
+    content: "N";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    font-weight: bolder;

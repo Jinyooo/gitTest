@@ -1,0 +1,58 @@
+h1 {
+    font-family: fantasy;
+}
+
+.unordered_list {
+    list-style: circle;
+    
+}
+
+/*링크도 항상  클래스로 구분하기*/
+.link:link, .link:visited {
+    color: black;
+    font-weight: border;
+    text-decoration: none;
+}
+.link:hover {
+    font-style: italic;
+    text-shadow: 1px 2px 2px grey;
+}
+
+.list {
+    font-family: "궁서";
+    color: green;
+    text-decoration: wavy underline 2px red;
+}
+
+div {
+    width: 50%;
+    background-color: lemonchiffon;
+    border: 2px solid olive;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+
+.first_row {
+    border-bottom: solid 1px brown ;
+    background-color: orange
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    background-color: peachpuff;
+}
+
+.total {
+    text-align: center;
+}
+/*가장 나중에 적힌 스타일이 최우선으로 적용된다*/
+
+td {
+    padding: 10px 20px;
+}

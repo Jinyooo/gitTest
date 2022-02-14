@@ -1,0 +1,57 @@
+.resize {
+    overflow: auto;
+    width: 200px;
+    height: 50px;
+    background-color: aqua;
+    border: 3px solid black;
+    resize: both;
+}
+
+div {
+    width: 200px;
+    height: 50px;
+    
+}
+.outline_offset {
+    background-color: rgb(152, 152, 219);
+    outline: 1px red solid;
+    border: 1px green solid;
+    outline-offset: 20px;
+}
+.box_sizing {
+    position: relative;
+    top: 30px;
+    background-color: bisque;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+section {
+    overflow: auto;
+}
+
+.columns {
+    columns: 50px 3;
+    column-gap: 50px;
+    column-rule: 2px solid black;
+    overflow: auto;
+}
+
+.flex_c {
+    background-color: antiquewhite;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*
+align-items > 2개
+alingn-content > 2rules
+*/
+
+.flex_c > p {
+    background-color: brown;
+    align-self: stretch;
+}

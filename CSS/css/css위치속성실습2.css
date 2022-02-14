@@ -1,0 +1,15 @@
+
+
+ul {
+    list-style-type: none;
+    overflow: auto; /*otherwise 컨텐츠인 li가 float 적용되었기때문에 흘러넘친다*/
+    padding: 20px;
+    background-color: yellow;
+    
+}
+
+li {
+    float: left;
+    background-color: darkgreen;
+    padding: 15px;
+}

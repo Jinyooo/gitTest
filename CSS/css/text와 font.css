@@ -1,0 +1,37 @@
+.text {
+    direction: rtl;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    text-align: center;
+    text-decoration: wavy overline underlined;
+    text-shadow: 2px 1px coral;
+}
+
+/*
+rtl : right to left
+ltr : left to right
+*/
+
+.text_p {
+    text-indent: 10px;
+    line-height: 200%;
+    
+}
+.font {
+    font-family::fantasy, "바탕";
+    font-size: 30px;
+}
+.font_h3 {
+    font-family:fantasy, "한컴산뜻돋움";
+}
+
+/*@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');*/
+
+.web_font{
+    font-family: 'jua';
+    font-size: 40px;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: oblique italic; /*oblique 와 italic 둘 다 기울임체
+    oblique를 제공하는 브라우저 거의 없다.*/
+}

@@ -1,0 +1,109 @@
+* {
+    margin: 0%;
+}
+header {
+    background-color: rgb(1, 1, 134);
+    color: white;
+    padding: 40px;
+}
+
+h1, footer { 
+    text-align: center;
+    
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+}
+
+li { 
+    width: 33.3%;
+    align-self: auto;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active, a: :visited {
+    color: black;
+}
+a:hover {
+    color: white;
+    text-shadow: 1px 1px grey;
+    font-weight: bolder;
+}
+
+div {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;  
+    
+}
+
+.video {
+    
+    width: 30%;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    /*position: absolute;*/
+    
+}
+
+/*iframe {
+    display: block;
+    width: 95%;
+}*/
+
+.video > p {
+    margin: 5px;
+    background-color: lightgray;
+    height: 150px;
+    
+}
+.news {
+    
+    width: 600px;
+    padding: 10px;
+    float: left; 
+    
+    
+}
+.notice {
+    
+    width: 600px;
+    padding: 10px;
+    float: left;
+}
+
+/*div 화면에 꽉차게 width 30% 70% 나눠서 하면 왜 안되는지..ㅠ*/
+
+hr {border-top: dotted 1px;}
+
+
+.notice > p::after {
+    content: "N";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: rgb(1, 1, 134);
+    color: white;
+    border-radius: 7px;
+}
+
+footer {
+    clear: both;
+    background-color: lightgrey;
+    padding: 20px;
+}

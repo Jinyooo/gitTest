@@ -1,0 +1,53 @@
+div {
+    
+    background-color: burlywood;
+    padding: 20px;
+    width: 200px ;
+    height: auto;
+}
+a {
+    width: 200px;
+    height: 100px;
+    background-color: cornflowerblue;
+}
+p { 
+    background-color: khaki;
+    margin: 0;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.none {
+    display: none;
+}
+.opacity {
+    filter: opacity(50%);
+}
+
+.static {
+    position: static;
+}
+
+.relative {
+    position: relative;
+    left: 50px;
+}
+
+.fixed {
+    position: fixed;
+    top: 10px;
+    right: 300px;
+    bottom: 500px;
+}
+.absolute {
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+
+.clear {
+    background-color: white;
+    width: auto;
+}

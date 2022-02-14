@@ -1,0 +1,46 @@
+h2 {
+    text-align: center;
+
+}
+header {
+    border: 3px solid pink;
+
+}
+
+nav {
+    border: 3px solid blueviolet;
+    width: 200px;
+    float: left;
+}
+
+section {
+    border: 3px solid red;
+    margin-left: /*nav border+width+section border*/206px;
+}
+footer {
+    border: 3px solid brown;
+}
+.page {
+    border: 3px solid green;
+}
+body {
+    margin: 0;
+}
+
+.color_box {
+    border: 3px black solid;
+    background-color: turquoise;
+    width: 200px;
+}
+
+.margin {
+    margin: auto;
+}
+
+.position {
+    position: absolute;
+    left: 0;
+}
+.float {
+    float: right;
+}
